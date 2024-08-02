@@ -79116,7 +79116,7 @@ r=k.x
 if(r<=0)r=B.cq
 else if(r>0&&r<=15)r=B.j9
 else r=r>15&&r<30?B.j8:B.j7
-r=A.dD(s+"\u02daC",j,j,j,A.ii().$2$color$fontSize(r,90),j,j)
+r=A.dD(s+"\u02daC",j,j,j,A.ii().$2$color$fontSize(r,72),j,j)
 s=A.aiT(i?B.i:B.l)
 q=k.Q
 q=A.dD(q,j,j,j,A.ii().$2$color$fontSize(i?B.hJ:B.A,27),j,j)
@@ -79140,17 +79140,19 @@ n=A.aiT(i?B.i:B.l)
 l=k.d
 l.toString
 p=A.mS(j,A.uU(A.b([new A.em(B.dc,j,j,new A.c5(new A.az(12,18,0,0),o,j),j),n,new A.c5(new A.az(2,2,2,2),new A.rO(new A.zN(l,j,A.b([],t.u),t.a_),new A.abM(k,new A.S(400,900),i),j,j,t.Yh),j)],h),B.du,B.c3),B.D,j,j,new A.dF(p,j,j,B.ys,j,j,B.aN),j,j,j,j)}return new A.y7(A.jv(A.mS(j,A.aB2(A.rk(B.db,A.b([new A.JK(A.uU(A.b([new A.c5(new A.az(20,9,20,9),g,j),new A.c5(new A.az(20,0,20,0),new A.vS(d,B.yk,j),j),new A.c5(new A.az(0,27,0,0),new A.em(B.T,j,j,c,j),j),new A.c5(new A.az(0,4.5,0,0),new A.em(B.T,j,j,b,j),j),new A.c5(new A.az(0,2.7,0,0),new A.em(B.T,j,j,r,j),j),new A.c5(new A.az(100,0,100,0),s,j),new A.c5(new A.az(0,0.45,0,0),new A.em(B.T,j,j,q,j),j),new A.c5(new A.az(0,27,0,9),m,j),new A.c5(new A.az(20,18,20,18),p,j)],h),B.eF,B.c3),j)],h),B.ap,B.d_),!0),B.D,j,j,new A.dF(e,j,j,j,j,j,B.aN),900,j,j,900),j,j),j)},
-r7(a,b,c,d,e,f){var s,r,q,p,o,n,m=null,l=e.b,k=l*0.005,j=e.a,i=j*0.02,h=f?B.i:B.l,g=l*0.025
-h=A.dD(a,m,m,m,A.ii().$2$color$fontSize(h,g),m,m)
-s=j*0.25
-r=f?B.i:B.l
-q=B.d.a_(b-273.15,2)
-q=A.dD(q+"\u02daC",m,m,m,A.ii().$2$color$fontSize(f?B.l7:B.l6,g),m,m)
-p=j*0.05
+r7(a,b,c,d,e,f){var s,r,q,p,o,n,m=null,l=e.b,k=l*0.005,j=e.a,i=j*0.02,h=B.c.L(a,0,3),g=f?B.i:B.l
+g=A.dD(h,m,m,m,A.ii().$2$color$fontSize(g,l*0.025),m,m)
+h=j*0.25
+s=f?B.i:B.l
+r=B.d.a_(b-273.15,2)
+q=f?B.l7:B.l6
+p=l*0.022
+q=A.dD(r+"\u02daC",m,m,m,A.ii().$2$color$fontSize(q,p),m,m)
+r=j*0.05
 o=B.d.a_(c-273.15,2)
 n=t.E
-g=A.rk(B.db,A.b([new A.c5(new A.az(i,0,i,0),h,m),new A.c5(new A.az(s,0,s,0),new A.FZ(d,l*0.03,r,m),m),new A.em(B.T,m,m,new A.c5(new A.az(j*0.15,0,0,0),q,m),m),new A.em(B.eq,m,m,new A.c5(new A.az(p,0,p,0),A.dD(o+"\u02daC",m,m,m,A.ii().$2$color$fontSize(f?B.i:B.l,g),m,m),m),m)],n),B.ap,B.d_)
-return new A.c5(new A.az(k,k,k,k),A.uU(A.b([g,A.aiT(f?B.i:B.l)],n),B.eF,B.c3),m)}}
+p=A.rk(B.db,A.b([new A.c5(new A.az(i,0,i,0),g,m),new A.c5(new A.az(h,0,h,0),new A.FZ(d,l*0.03,s,m),m),new A.em(B.T,m,m,new A.c5(new A.az(j*0.15,0,0,0),q,m),m),new A.em(B.eq,m,m,new A.c5(new A.az(r,0,r,0),A.dD(o+"\u02daC",m,m,m,A.ii().$2$color$fontSize(f?B.i:B.l,p),m,m),m),m)],n),B.ap,B.d_)
+return new A.c5(new A.az(k,k,k,k),A.uU(A.b([p,A.aiT(f?B.i:B.l)],n),B.eF,B.c3),m)}}
 A.abN.prototype={
 $0(){this.a.as=!0},
 $S:0}
